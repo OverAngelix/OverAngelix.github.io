@@ -4,98 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV de Steven Copin</title>
-    <!-- Import Vue.js et Vuetify -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.6.3/dist/vuetify.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 5px;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div id="app">
-        <v-app>
-            <v-container>
-                <v-card>
-                    <v-card-title>
-                        <h1 class="display-1">Steven Copin</h1>
-                        <p class="subtitle-1">Développeur informatique</p>
-                        <p>Email: steven59260@hotmail.fr | Téléphone: 0686087474</p>
-                    </v-card-title>
-                    <v-divider></v-divider>
-                    <v-card-text>
-                        <h2 class="headline">Expérience Professionnelle</h2>
-                        <v-row>
-                            <v-col cols="12">
-                                <v-card-text>
-                                    <p><strong>Assistant Ingénieur d'études en informatique</strong></p>
-                                    <p>Université de Lille</p>
-                                    <p>Juin 2020 - Aujourd'hui</p>
-                                </v-card-text>
-                            </v-col>
-                            <v-col cols="12">
-                                <v-card-text>
-                                    <p><strong>Stage de fin de DUT en informatique</strong></p>
-                                    <p>Université de Lille</p>
-                                    <p>Mai 2019 - Juin 2019</p>
-                                </v-card-text>
-                            </v-col>
-                        </v-row>
-                        <h2 class="headline">Études</h2>
-                        <v-row>
-                            <v-col cols="12">
-                                <v-card-text>
-                                    <p><strong>Licence en informatique - Alternance</strong></p>
-                                    <p>CNAM de Lille</p>
-                                    <p>2019 - 2020</p>
-                                </v-card-text>
-                            </v-col>
-                            <v-col cols="12">
-                                <v-card-text>
-                                    <p><strong>BUT en informatique</strong></p>
-                                    <p>Université de Lille</p>
-                                    <p>2017 - 2019</p>
-                                </v-card-text>
-                            </v-col>
-                            <v-col cols="12">
-                                <v-card-text>
-                                    <p><strong>CPGE PTSI</strong></p>
-                                    <p>Lycée César Baggio</p>
-                                    <p>2016 - 2017</p>
-                                </v-card-text>
-                            </v-col>
-                            <v-col cols="12">
-                                <v-card-text>
-                                    <p><strong>Baccalauréat Scientifique (mention trés bien)</strong></p>
-                                    <p>Lycée César Baggio</p>
-                                    <p>2016</p>
-                                </v-card-text>
-                            </v-col>
-                        </v-row>
-                        <h2 class="headline">Compétences</h2>
-                        <ul>
-                            <li>Langages de programmation : Java, JS, Dart,C++ HTML5, CSS</li>
-                            <li>Frameworks : Spring, VueJs, Flutter</li>
-                            <li>Outils de développement : Jenkins, Git, Flutter</li>
-                            <li>Bases de données : MySQL, MongoDB, Oracle.</li>
-                            <li>Maîtrise des méthodologies Agile</li>
-                        </ul>
-                    </v-card-text>
-                    <v-divider></v-divider>
-                    <v-card-actions>
-                        <v-btn text href="https://github.com/OverAngelix">GitHub</v-btn>
-                        <v-btn text href="https://www.linkedin.com/in/steven-copin-99653114b/">LinkedIn</v-btn>
-                    </v-card-actions>
-                </v-card>
-            </v-container>
-        </v-app>
+    <div class="container">
+        <header>
+            <h1>Steven Copin</h1>
+            <p>Développeur informatique</p>
+            <p>Email: steven59260@hotmail.fr | Téléphone: 0686087474</p>
+        </header>
+        <hr>
+        <section>
+            <h2>Expérience Professionnelle</h2>
+            <p><strong>Assistant Ingénieur d'études en informatique</strong></p>
+            <p>Université de Lille</p>
+            <p>Juin 2020 - Aujourd'hui</p>
+             <p><strong>Assistant Ingénieur d'études en informatique</strong></p>
+            <p>Université de Lille</p>
+            <p>Mai 2019 - Juin 2019</p>
+        </section>
+        <hr>
+        <section>
+            <h2>Etudes</h2>
+            <p><strong>Licence en informatique - Alternance</strong></p>
+            <p>CNAM de Lille</p>
+            <p>2019 - 2020</p>
+            <p><strong>BUT en informatique</strong></p>
+            <p>Université de Lille</p>
+            <p>2017 - 2019</p>
+            <p><strong>CPGE PTSI</strong></p>
+            <p>Lycée César Baggio</p>
+            <p>2016 - 2017</p>
+            <p><strong>Baccalauréat Scientifique (mention trés bien)</strong></p>
+            <p>Lycée César Baggio</p>
+            <p>2016</p>
+        </section>
+        <hr>
+        <section>
+            <h2>Compétences</h2>
+            <ul>
+                <li>Langages de programmation : Java, JS, Dart,C++ HTML5, CSS</li>
+                <li>Frameworks : Spring, VueJs, Flutter</li>
+                <li>Outils de développement : Jenkins, Git, Flutter</li>
+                <li>Bases de données : MySQL, MongoDB, Oracle.</li>
+                <li>Maîtrise des méthodologies Agile</li>
+            </ul>
+        </section>
+        <hr>
+        <footer>
+            <p>GitHub : <a href="https://github.com/OverAngelix">OverAngelix</a> | LinkedIn : <a href="https://www.linkedin.com/in/steven-copin-99653114b/">Steven Copin</a></p>
+        </footer>
     </div>
-
-    <!-- Import Vuetify JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@vue/cli-plugin-babel/preset"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.6.3/dist/vuetify.js"></script>
-
-    <script>
-        new Vue({
-            el: '#app',
-            vuetify: new Vuetify(),
-        })
-    </script>
 </body>
 </html>
